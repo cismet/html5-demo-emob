@@ -1,0 +1,25 @@
+{
+  "name": "Demo eMobilitaet",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public_html/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "authors": [
+    "helllth <th@cismet.de>"
+  ],
+  "description": "small demo project to show map speedboats",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}

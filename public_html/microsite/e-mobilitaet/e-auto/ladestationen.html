@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+
+        <title>Stadt Wuppertal - Ladestationen für E-Autos</title>
+        <meta http-equiv="content-language" content="de" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta name="generator" content="InfoSite 5 - Sitepark Information Enterprise Server" />
+        <meta name="sp_intro" content="Ladestationen für E-Autos:  Ein E-Auto ist ein Kraftfahrzeug zur Personenbeförderung und zum Gütertransport, das mit einem Elektromotor und einer Batterie als Antriebsenergie angetrieben wird. Das Nachladen mit elektrischer Energie erfolgt an Stromtankstellen. Wie lange ein E-Auto nach einer Ladung" />
+
+        <link rel="stylesheet" type="text/css" href="../../../css/sg_all.css" />
+        <link rel="stylesheet" type="text/css" href="../../../microsite/e-mobilitaet/config/screen.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../../../css/sg_print.css" media="print" />
+        <script type="text/javascript" src="../../../script/jquery-1.2.6.pack.js"></script>
+        <script type="text/javascript" src="../../../script/jquery.tools-1.0.2.pack.js"></script>
+        <link href="../../../css/custom.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="../../../script/jquery.collapsableBox.js"></script>
+        <script type="text/javascript" src="../../../script/gallery.js"></script>
+        <script type="text/javascript" src="../../../script/site.js"></script>
+        <script type="text/javascript" src="../../../script/sg_common.js"></script>
+
+
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+
+
+        <!--FULLSCREEN-->
+        <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js'></script>
+        <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css' rel='stylesheet' />
+
+
+        <!--LOCATION-->
+
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.css" />
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.ie.min.css"/>
+        <![endif]-->
+
+        <script src="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.js" ></script>
+
+        <link rel="start" title="Startseite" href="../../../microsite/e-mobilitaet/" />
+
+
+        <meta name="geo.region" content="DE-NW" />
+        <meta name="geo.placename" content="Wuppertal" />
+
+    </head>
+
+    <body class="rubrik sitegenerator">
+
+
+        <div class="ilink"></div>
+        <div id="page">
+            <!--search_noindex-->
+            <hr class="acc" />
+            <div id="header">
+                <div id="header-left">
+                    <div id="header-right">
+                        <div id="header-wrapper">
+                            <div id="logo"><a href="../../../" title="www.wuppertal.de" onclick="window.open(this.href);return false" ><img src="../../../img/logo.png" alt="Logo: Stadt Wuppertal" /></a></div>
+                            <div id="navigation-service">
+                                <ul>
+
+                                    <li class="link first"><a href="/microsite/e-mobilitaet/index.html">Startseite</a></li>
+
+                                    <li class="link"><a href="https://www.wuppertal.de/microsite/e-mobilitaet/global/sitemap.php">Übersicht</a></li>
+
+                                    <li class="link"><a href="https://www.wuppertal.de/microsite/e-mobilitaet/global/kontakt.php">Kontakt</a></li>
+
+                                    <li class="link last"><a href="https://www.wuppertal.de/microsite/e-mobilitaet/global/102370100000655027.php">Impressum</a></li>
+
+                                </ul>
+                                <div id="search">
+                                    <form action="/microsite/e-mobilitaet/e-auto/ladestationen.php" method="post">
+                                        <div class="fieldset">
+                                            <input type="hidden" name="search" value="nutch" />
+                                            <label class="overlabel" for="search_keywords">Volltextsuche</label>
+                                            <input type="text" size="30" id="search_keywords" name="words" value="" onfocus="this.value = '';"/><input type="submit" class="btn-search" value="" alt="suchen ..." title="suchen ..."/>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div id="illustration">
+                                <div class="image-left"><a href="../../../microsite/e-mobilitaet/" title="www.wuppertal.de"><img src="../../../microsite/e-mobilitaet/img/logo.jpg" alt="Logo: Stadt Wuppertal" /></a></div>
+                                <div class="image-right"><img src="/microsite/e-mobilitaet/index.php.media/659073/e-mobilitaet.png" width="750" height="180" alt="E-Fahrzeug wird an der Ladestation am Rathaus-Neubau aufgeladen." /></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div id="header-bottom"></div>
+                </div>
+            </div>
+            <!--/search_noindex-->
+            <div id="cols-wrapper">
+                <div id="cols">
+                    <div id="col-navigation">
+
+                        <div id="submenu">
+                            <!--search_noindex-->
+                            <ul class="navigation">
+                                <li class="first last node path parent">
+                                    <!--/search_noindex--><a href="/microsite/e-mobilitaet/index.html"><!--search_noindex-->E-Mobilität<!--/search_noindex--></a><!--search_noindex-->
+                                    <ul>
+                                        <li class="first lastOpenNode node active">
+                                            <!--/search_noindex--><a href="/microsite/e-mobilitaet/e-auto/ladestationen.html"><!--search_noindex-->Ladestationen für E-Autos<!--/search_noindex--></a><!--search_noindex-->
+                                            <ul>
+                                                <li class="first leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Barmen')"><!--search_noindex-->Stadtbezirk Barmen<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                                <li class="leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Elberfeld')"><!--search_noindex-->Stadtbezirk Elberfeld<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                                <li class="leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Elberfeld West')"><!--search_noindex-->Stadtbezirk Elberfeld West<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                                <li class="leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Oberbarmen')"><!--search_noindex-->Stadtbezirk Oberbarmen<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                                <li class="leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Ronsdorf')"><!--search_noindex-->Stadtbezirk Ronsdorf<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                                <li class="last leaf">
+                                                    <!--/search_noindex--><a href="#" onclick="showBezirk('Vohwinkel')"><!--search_noindex-->Stadtbezirk Vohwinkel<!--/search_noindex--></a><!--search_noindex-->
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="leaf">
+                                            <!--/search_noindex--><a href="https://www.wuppertal.de/microsite/e-mobilitaet/sharing/carsharing.php"><!--search_noindex-->Carsharingnetz E-Autos<!--/search_noindex--></a><!--search_noindex-->
+                                        </li>
+                                        <li class="leaf">
+                                            <!--/search_noindex--><a href="https://www.wuppertal.de/microsite/e-mobilitaet/ladestationen-rad/ladestationen-raeder.php"><!--search_noindex-->Ladestationen für E-Fahrräder<!--/search_noindex--></a><!--search_noindex-->
+                                        </li>
+                                        <li class="last leaf">
+                                            <!--/search_noindex--><a href="https://www.wuppertal.de/microsite/e-mobilitaet/verleih-rad/verleih.php"><!--search_noindex-->Verleih E-Fahrräder<!--/search_noindex--></a><!--search_noindex-->
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="foot">&nbsp;</div>
+                            <!--/search_noindex-->
+                        </div>
+
+                        <!--search_noindex-->
+
+                        <!--/search_noindex-->
+
+                    </div>
+
+                    <div id="col-content-teaser-wrapper">
+                        <div class="shadowMainTop"></div>
+                        <div class="shadowMain">
+
+                            <div id="navipath">
+                                <!--search_noindex-->
+                                <div class="navitext">Wo bin ich?</div>
+                                <div class="navilink">
+                                    <a href="/microsite/e-mobilitaet/index.php">E-Mobilität</a>
+                                    &gt; <a href="/microsite/e-mobilitaet/e-auto/ladestationen.php">Ladestationen für E-Autos</a>
+                                </div>
+                                <!--/search_noindex-->
+                            </div>
+
+                            <div id="col-content">
+
+                                <h1>Ladestationen für E-Autos</h1>
+
+
+
+                                <h2 id="chapter102370100000654965-1015v1448267889162_sp_main_iterate_0_0">E-Autos</h2>
+                                <div class="paragraph">
+                                    Ein E-Auto ist ein Kraftfahrzeug zur Personenbeförderung und zum Gütertransport, das mit einem Elektromotor und einer Batterie als Antriebsenergie angetrieben wird. Das Nachladen mit elektrischer Energie erfolgt an Stromtankstellen. Wie lange ein E-Auto nach einer Ladung hält, ist vom Fahrzeugtyp abhängig.
+                                </div>
+
+
+                                <div class="image image-left">
+                                    <div class="image-wrapper">
+                                        <a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?popup=imgZoom&amp;imgID=102370100000667396" class="zoom" onclick="zoomImg('102370100000667396');return false;" title="Großbildansicht"><img src="/microsite/e-mobilitaet/e-auto/ladestationen.php.media/667396/Oberbarmen_Ladestation_Fertighauswelt_Wuppertal_kl.jpg.scaled/180x139.pm0.bgFFFFFF.jpg" width="180" height="139" alt="Ladestation Fertighauswelt Wuppertal" /></a>
+                                        <div class="enlarge">
+                                            <a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?popup=imgZoom&amp;imgID=102370100000667396" class="zoom" onclick="zoomImg('102370100000667396');return false;" title="Großbildansicht"><span>+</span></a>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">
+                                        //<![CDATA[
+                                        if (typeof arrImgXL == "undefined")
+                                            arrImgXL = new Object();
+                                        arrImgXL['id102370100000667396'] = new Object();
+                                        arrImgXL['id102370100000667396']['url'] = "/microsite/e-mobilitaet/e-auto/ladestationen.php.media/667396/Oberbarmen_Ladestation_Fertighauswelt_Wuppertal_kl.jpg.scaled/550x475.pm1.bgFFFFFF.jpg";
+                                        arrImgXL['id102370100000667396']['width'] = "550";
+                                        arrImgXL['id102370100000667396']['height'] = "475";
+                                        arrImgXL['id102370100000667396']['text'] = "Ladestation Fertighauswelt Wuppertal";
+                                        arrImgXL['id102370100000667396']['legend'] = "";
+                                        //]]>
+                                    </script>
+
+                                </div>
+
+
+                                <h2 id="chapter102370100000654965-1015v1448267889162_sp_main_iterate_2_0">Ladestationen in Wuppertal</h2>
+                                <div class="paragraph">
+                                    Gerade auf längeren Strecken ist für elektrisch betriebene Fahrzeuge eine gute Infrastruktur von Ladestationen wichtig.
+                                    Elektromobilisten, die in Wuppertal mit E-Autos unterwegs sind, können zurzeit an über 20 Standorten ihre Batterie mir elektrischem Strom nachladen.
+                                    Über die Internetseite "E-Mobilität" bietet die Stadt Wuppertal Informationen zur Ladeinfrastruktur für E-Autos in unserer Stadt. 
+                                    Die Ladestationen befinden sich auf öffentlichen Parkplätzen, in Parkhäusern, in Einkaufszentren und Baumärkten.
+                                </div>
+
+
+                                <br>
+                                    <div id="map" style="height: 340px;margin:initial;"></div>
+                                </br>
+                                <div class="paragraph">
+                                    <p>Unter dem Menü Ladestationen für E-Autos finden Sie Informationen über:</p>
+                                    <ul>
+                                        <li>Standort der Ladesäule</li>
+                                        <li>Steckerverbindung</li>
+                                        <li>Anzahl der Ladepunkte</li>
+                                        <li>Zugang zum Ladepunkt, z.B. öffentlich, Ladekarte, Ladeticket</li>
+                                        <li>Ladekosten</li>
+                                        <li>Anzahl der Parkplätze</li>
+                                        <li>Parkgebühren</li>
+                                        <li>Öffnungszeiten</li>
+                                        <li>Foto, Luftbild und Übersichtskarte der Ladestation</li>
+                                        <li>Erreichbarkeit der Ladestation</li>
+                                    </ul>
+                                    <p>Um die E-Mobilität in Wuppertal zu optimieren, nehmen wir Anregungen und Informationen aus der Bevölkerung sehr gerne entgegen.</p>
+                                </div>
+
+                            </div>
+
+                            <div id="col-teaser">
+
+                                <!--search_noindex-->
+
+
+                                <div id="slot102370100000654965-1015v1448267889162_sp_slotRight_iterate_0_sp_slot_iterate_0_0">
+                                    <div class="box-whead">
+                                        <h2>Kontakt</h2>
+
+                                        <div class="topic-b">
+                                            <div class="contact name">Anni Dornbach</div>
+                                            <div class="contact text">+49 (202) 563 4159</div>
+                                            <div class="contact mail"><a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?sp-mode=email&amp;sp-email=8decef367bea3ede0b92fc6f8643334dfb5585cd18e06a4ad82f0cbfe0d4502f&amp;mode=email&amp;email=8decef367bea3ede0b92fc6f8643334dfb5585cd18e06a4ad82f0cbfe0d4502f&amp;sp-emailImageUrl=%2Fmicrosite%2Fe-mobilitaet%2Fe-auto%2Fladestationen.php.media%2Ftextimage%2F1105867047.png&amp;emailImageUrl=%2Fmicrosite%2Fe-mobilitaet%2Fe-auto%2Fladestationen.php.media%2Ftextimage%2F1105867047.png" class="sp-mailto" title="E-Mail-Adresse - zum Kontaktformular bitte klicken ...">E-Mail</a></div>
+
+                                        </div>
+
+                                        <div class="foot">&nbsp;</div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div id="slot102370100000654965-1015v1448267889162_sp_slotRight_iterate_2_sp_slot_iterate_0_0">
+                                    <div class="box-whead">
+                                        <h2>QR-Code</h2>
+                                        <div class="topic-b">
+                                            <div class="image"><img src="/microsite/e-mobilitaet/e-auto/ladestationen.php.media/663467/qrcode_e-autos.png.scaled/158x158.pm1.bgFFFFFF.png" width="158" height="158" alt="QR-Code - Ladestationen für E-Autos" /></div>
+                                            <h3>Ladestationen für E-Autos im GeoPortal</h3>
+
+                                        </div>
+                                        <div class="foot">&nbsp;</div>
+                                    </div>
+
+                                </div>
+
+
+                                <div id="slot102370100000654965-1015v1448267889162_sp_slotRight_iterate_3_sp_slot_iterate_0_0">
+                                    <div class="box-whead">
+                                        <h2>Infos</h2>
+                                        <div class="topic-b">
+                                            <div class="image"><img src="/microsite/e-mobilitaet/e-auto/ladestationen.php.media/666656/Zwischenablage-1.jpg.scaled/158x126.pm1.bgFFFFFF.jpg" width="158" height="126" alt="E-Auto beim Ladevorgang" /></div>
+                                            <ul class="links">
+                                                <li class="first last">
+                                                    <a href="/microsite/e-mobilitaet/medien/bindata/WSW_Foerderung.pdf" class="download" onclick="window.open(this.href);return false;" title="PDF-Datei in einem neuen Fenster">WSW-Förderung</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="foot">&nbsp;</div>
+                                    </div>
+
+                                </div>
+
+                                <!--/search_noindex-->
+
+                            </div>
+                            <div class="clear"></div>
+
+                            <!--search_noindex-->
+                            <div class="clear"></div>
+                            <div class="copyright noprint">
+                                © wuppertal.de
+
+                            </div>
+                            <div id="print"><a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?mode=print" onclick="window.open(this.href);return false">Druckvorschau</a></div>
+                            <div class="copyright print">
+                                <div class="hr"><hr /></div>
+                                © wuppertal.de
+                                <div class="date">
+                                    <br />Druckdatum: 02.12.2015      
+                                </div>
+                            </div>
+
+                            <!--/search_noindex-->
+                            <div class="clear"></div>
+                        </div>
+                        <div class="shadowMainBottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(["trackPageView"]);
+            _paq.push(["enableLinkTracking"]);
+
+            (function () {
+                var u = (("https:" == document.location.protocol) ? "https" : "http") + "://www.wuppertal.de/piwik/";
+                _paq.push(["setTrackerUrl", u + "piwik.php"]);
+                _paq.push(["setSiteId", "4"]);
+                var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
+                g.type = "text/javascript";
+                g.defer = true;
+                g.async = true;
+                g.src = u + "piwik.js";
+                s.parentNode.insertBefore(g, s);
+            })();
+        </script>
+        <!-- End Piwik Code -->
+
+    </body>
+</html>
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function () {
+        var u = (("https:" == document.location.protocol) ? "https" : "http") + "://www.wuppertal.de/piwik/";
+        _paq.push(["setTrackerUrl", u + "piwik.php"]);
+        _paq.push(["setSiteId", "4"]);
+        var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.defer = true;
+        g.async = true;
+        g.src = u + "piwik.js";
+        s.parentNode.insertBefore(g, s);
+    })();
+
+    var map = L.map('map', {
+        fullscreenControl: true
+    });
+    var lc = L.control.locate().addTo(map);
+
+    map.setView([51.272, 7.20], 11);
+
+//L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+//L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+
+    }).addTo(map);
+
+    $.getJSON("ladestationen.json", null, function (data, textStatus, jqXHR) {
+        var allLadestationen = L.geoJson(data, {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup('<br>' + feature.properties.Standort + '<br>');
+            }
+        });
+        allLadestationen.addTo(map);
+        map.fitBounds(allLadestationen.getBounds(), {
+            padding: [0, 0]
+        });
+    });
+
+    function showBezirk(name) {
+        $.getJSON("ladestationen.json", null, function (data, textStatus, jqXHR) {
+            var stationenInBezirk = L.geoJson(data, {
+                filter: function (feature, layer) {
+                    return feature.properties.Bezirk === name;
+                }
+            });
+            map.fitBounds(stationenInBezirk.getBounds(), {
+                padding: [5, 5]
+            });
+        });
+
+
+    }
+
+</script>
+<!-- End Piwik Code -->

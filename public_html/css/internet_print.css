@@ -1,0 +1,161 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+| Print-Stylesheet für www.wuppertal.de
+| fasc | 2009-03-24
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+@import "./internet_reset.css";
+a, div, input, label, option, select, textarea {
+  font-family: Verdana, Arial, Sans-Serif;
+}
+@page { 
+  size: 21cm 29.7cm; 
+}
+a {
+  color: #000000;
+  cursor: default;
+}
+body {
+  color: #000000;
+  background: none !important;
+  background-color: #FFFFFF !important;
+  background-image: none !important;
+  padding: 0;
+  margin: .25cm 0 0 .25cm;
+}
+
+h1,
+h2,
+.gallery-teaser,
+.gallery-teaser h2,
+.content div.intro,
+.content,
+.foot,
+.teaser li,
+.teaser-short,
+.teaser-short li,
+.wrapper,
+#header,
+#header-wrapper,
+#header-left,
+#header-right,
+.content div.webform-wrapper {
+  background: none !important;
+  background-color: #FFFFFF !important;
+  overflow: visible;
+}
+
+.teaser,
+.teaser-short,
+.gallery-teaser {
+  background: none;
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+#header,
+#header-wrapper,
+#header-left,
+#header-right
+{ 
+  position: static;
+}
+.gallery-teaser .carousel-wrapper div.next,
+.gallery-teaser .carousel-wrapper div.prev,
+div.enlarge,
+div.fieldset-print,
+div.ilink,
+em.acc,
+#col-navigation,
+#col-teaser,
+#col-teaser-additional,
+.footer.noprint,
+#languages,
+#navigation-service,
+#presentation,
+#presentation-bg,
+#search,
+#slogan,
+#ksForm,
+.searchOf {
+  display: none !important;
+}
+#header .logo.noprint {
+  display: none;
+}
+#col-content .teaser div.about
+{
+  line-height: 1em;
+}
+.carousel-wrapper,
+div.carousel,
+div.carousel ul.galleries {
+  background: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  position: relative !important;
+}
+.gallery-teaser div.carousel ul.items {
+  clear: both;
+  background: none !important;
+  top: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: relative !important;
+  width: 18cm !important;
+  height: auto !important;
+}
+.galleries {
+  padding: 0 !important;
+}
+.footer.print {
+  clear: both; float: none;
+  display: block;
+}
+.content h1 {
+  margin: 0 0 1em 0;
+  font-size: 1.1em;
+}
+.content h2 {
+  padding: 0;
+}
+.content div.intro {
+  position: relative;
+  background: none !important;
+}
+.content div.wrapper {
+  clear: both;
+}
+.footer.print table.date {
+  margin: 0 0 15px 15px !important;
+  color: #303030;
+}
+.footer.print table.date td,
+.footer.print table.date th {
+  font-size: .75em !important;
+  font-weight: normal;
+  line-height: 1.33em !important;
+}
+.content div .recipient {
+  border: 0;
+}
+#pageinfo {
+  margin-left: -369px;
+}
+.sp-email {
+  position: relative; top: 2px;
+}
+div.address,
+div.paragraph {
+  font-size: .75em !important; line-height: 1.33em !important;
+}
+div.paragraph li {
+  font-size: 1em;
+}
+span.date {
+  padding: 0 !important;
+}
+#overlay div {
+  display: none;
+}

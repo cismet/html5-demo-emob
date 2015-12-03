@@ -1,0 +1,692 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Verdana, Arial, Sans-Serif;
+  text-align: center;
+}
+body #cols, input, textarea {
+  font-family: Verdana, Arial, Sans-Serif;
+}
+.clear {
+  clear: both;
+}
+#cols #col-content .paragraph {
+  margin: 0 0 1.4em 0;
+}
+.paragraph {
+  margin: 0.55em 0 1em 0;
+}
+small {
+  font-size: 100%;
+}
+h1 {
+  margin: 0.55em 0 0 0;
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 120%;
+}
+.home h1 {
+  margin: 0.48em 0;
+  font-size: 120%;
+}
+h2 {
+  margin: 0.48em 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 110%;
+  font-weight: bold;
+}
+.home h3 {
+  margin: 0;
+  font-size: 100%;
+}
+.box-whead h3,
+.box-wohead h3 {
+  font-size: 91.67%;
+}
+h4 {
+  margin: 0.5em 0 1em 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+div.caption {
+  font-size: 90%;
+  margin: 0;
+  padding: 0;
+}
+#col-content div.date {
+  margin: 0.75em 0 0 0;
+  padding: 0;
+  font-weight: bold;
+}
+.right {
+  float: right !important;
+}
+.acc {
+  display: none !important;
+}
+#cols div.teaser {
+  margin: 0 0 0.75em 0;
+}
+.home #cols div.teaser {
+  margin: 0.3em 0 0 0;
+}
+#cols div.paging {
+  margin: 0.75em 0;
+}
+#cols ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+#cols ul {
+  margin: 1em 0;
+  padding: 0 0 0 1.5em;
+}
+#cols div.linklist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: relative;
+}
+.home #cols div.linklist ul {
+  margin: 0.15em 0 0 0;
+}
+#cols div.linklist li {
+  position: relative;
+  padding: 0.1em 0 0.5em 15px;
+}
+#cols ul.download {
+  position: relative;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+#cols ul.download li.pdf {
+  position: relative;
+  padding: 0 0 0 20px;
+  font-weight: normal;
+}
+#cols ul.download li a {
+  font-weight: bold;
+}
+#cols li {
+  margin: 0 0 0.05em;
+  padding: 0;
+}
+#col-content div {
+  margin: 0;
+  padding: 0;
+}
+#col-content div.topteaser {
+  margin: 0 0 1em 0;
+}
+#col-content div.teaser table {
+  border-collapse: collapse;
+}
+#col-content div.teaser td {
+  padding: 0;
+}
+#col-content div.vnav {
+  padding: 0;
+}
+.home #col-content div.intro {
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+#col-content div.intro {
+  margin: 1em 0;
+  padding: 0;
+  font-weight: bold;
+}
+#col-content div div {
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+#col-content .image-left, #col-content .image-square, #col-content .image-right,
+#col-content .movie-left, #col-content .movie-square, #col-content .movie-right {
+  position: relative;
+  top: 0.2em;
+}
+#col-content .image-left div, #col-content .image-square div,
+#col-content .movie-left div, #col-content .movie-square div {
+  margin: 0;
+}
+#col-content .image-left,
+#col-content .movie-left {
+  margin: 0 10px 0 0 !important;
+  float: left;
+}
+#col-content .image-right,
+#col-content .movie-right {
+  margin: 0 0 0 10px !important;
+  float: right;
+}
+#col-content .image-right.headline,
+#col-content .movie-right.headline {
+  margin: 0 0 -1.2em 10px !important;
+}
+#col-content .image-big,
+#col-content .movie-big {
+  clear: both;
+  float: left;
+  margin: 1em 0;
+}
+#col-content .teaserImg {
+  float: left;
+  margin: 4px 10px 1px 0;
+}
+#col-content img.zoom {
+  margin: 0 0 2px 0;
+  border: 0;
+  padding: 0;
+  float: right;
+}
+.home #col-content .zoom {
+  margin: 0 0 2px 0;
+  border-width: 1px 2px 2px 1px;
+  border-style: solid;
+  padding: 10px;
+}
+.home.boxLeft #col-content .imgShadow,
+.home.boxRight #col-content .imgShadow {
+  padding: 5px;
+}
+.home.boxLeft #col-content .image-big .imgShadow,
+.home.boxRight #col-content .image-big .imgShadow,
+.home.boxLeft #col-content .movie-big .imgShadow,
+.home.boxRight #col-content .movie-big .imgShadow {
+  padding: 8px;
+}
+.box-whead div.topic-b div.code, .box-wohead div.topic-b div.code {
+  font-size: 0.91667em;
+  line-height: 1.125em;
+}
+#col-content .enlarge {
+  position: absolute;
+  background-color: #FFFFFF;
+  bottom: 2px;
+  right: 2px; /* ie.css */
+  width: 17px;
+  height: 17px;
+  line-height: 20px;
+  overflow: hidden;
+}
+#col-content #accessoryBox .legend {
+  width: 127px;
+}
+#col-content .image-left br, #col-content .image-square br, #col-content .image-right br,
+#col-content .movie-left br, #col-content .movie-square br, #col-content .movie-right br {
+  clear: both;
+  display: none;
+}
+#col-content img.imgBorder {
+  border: 10px solid #FFFFFF;
+}
+#col-content img.imgBorderSmall {
+  border: 5px solid #FFFFFF;
+}
+#col-content a.zoom,
+#col-content a.popup {
+  position: relative;
+  margin: 0;
+  display: block;
+}
+#col-content a.zoom:hover,
+#col-content a.popup:hover {
+  text-decoration: none;
+}
+#col-content a.zoom span,
+#col-content a.popup span {
+  display: block;
+  line-height: 100px;
+  text-indent: 10000px;
+  overflow: hidden;
+}
+#col-content .linklist {
+  padding: 0 0 1em 0;
+}
+#col-content .linklist small {
+  font-weight: normal;
+}
+#col-content .linklist-anchors {
+  margin: 5px 0 20px 0;
+  padding: 0;
+}
+#col-content .linklist-anchors ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#col-content .linklist-anchors li,
+#col-content .linklist-anchors li.anchor-link {
+  position: relative;
+  padding: 0 0 0 15px;
+  margin-bottom: 0.3em;
+}
+#col-content ul.distributor {
+  position: relative;
+  margin: 0.5em 0 0 0;
+  padding: 0.5em 0;
+  list-style-type: none;
+}
+#col-content ul.distributor li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 10px 15px;
+}
+#col-content .rss {
+  margin: 0 0 0.75em 0;
+  padding: 0 0 10px 0;
+}
+#col-content .rss .hr {
+  width: auto;
+  margin: 0 !important;
+  float: none;
+}
+#col-content .rss .hr hr {
+  display: block;
+}
+#col-content .rss .teaser {
+  clear: both;
+}
+#linkDownload {
+  margin: 0;
+  padding: 0;
+}
+.bannerXl .banner img {
+  display: block;
+  margin: 0 auto;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+}
+img.flag {
+  clear: both;
+  float: left;
+  margin: 1px 3px 1px 1px;
+  vertical-align: top;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==content ===separator */
+
+.content div.hr {
+  margin: 12px 0 12px 35px !important;
+  height: 1px;
+  width: 140px;
+  border: 0;
+  padding: 0;
+  clear: both;
+  float: none;
+}
+  
+#col-content div.hr {
+  margin: 20px 0 0 0;
+  padding: 0;
+  clear: both;
+  float: none;
+}
+
+#col-content div.hr hr {
+  height: 1px;
+  margin: 0 0 20px 0;
+  border: 0;
+  border-top: 1px solid #FFFFFF;
+  display: block;
+}
+
+
+
+input {
+  margin: 0px;
+  border: 1px solid #92A0A4;
+  padding: 2px;
+  font-size: 1.1em;
+}
+input.check, input.checkbox, input.radio {
+  width: auto;
+  border: 0;
+}
+input.date {
+  width: 6em;
+}
+textarea {
+  height: 5.8em;
+  margin: 0px;
+  border: 1px solid #92A0A4;
+  padding: 2px;
+  font-size: 1.1em;
+}
+input.chkBox {
+  width: 15px;
+  border: 0;
+}
+select {
+  margin: 0px;
+  border: 1px solid #92A0A4;
+  padding: 0px;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+}
+legend {
+  margin: 0 0 0.75em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+*htmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtml legend, *+html legend, {
+  margin: 0 0 0.75em -0.5em;
+}
+#col-content .formfield {
+  display: block;
+  margin: 0 0 1em 0;
+}
+.button {
+  position: relative;
+  width: auto !important;
+  margin: 10px 10px 10px 1px;
+  padding: 0 10px 0 12px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 100%;
+  border: none;
+}
+#logo {
+  position: relative;
+  float: left;
+  width: 180px;
+  height: 61px;
+  padding: 0;
+  margin: 0;
+}
+#logo img {
+  position: absolute;
+  bottom: 14px;
+  display: block;
+}
+.more {
+  position: relative;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 100%;
+}
+.error {
+  color: red !important;
+}
+div.ilink {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  float: left;
+  z-index: 2000;
+}
+div.ilink a:link, div.ilink a:visited {
+  display: block;
+  height: 1px;
+  line-height: 1px;
+}
+
+/* PopUp in der Seite */
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1001;
+}
+#overlay .background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000000 none repeat scroll 0 0;
+  opacity: 0.2;
+  overflow: visible;
+}
+#overlay iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: white none repeat scroll 0 0;
+}
+
+/* in Grafik umgewandelte E-Mailadressen */
+
+a:link.sp-mailto, a:visited.sp-mailto {
+  border-width: 0;
+  text-decoration: none !important;
+}
+a:hover.sp-mailto, a:active.sp-mailto {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  text-decoration: none !important;
+}
+img.sp-email {
+  margin: 0;
+  padding: 0 0 1px 0;
+  vertical-align: bottom;
+}
+a.sp-mailto img.sp-email {
+  padding: 0 0 2px 0;
+}
+.box-whead a.sp-mailto img.sp-email, .box-wohead a.sp-mailto img.sp-email {
+  padding: 0 0 1px 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==pageinfo */
+  
+#pageinfo {
+  position: relative;
+  width: 750px;
+  margin: auto;
+  padding: 0 0 0 208px;
+  text-align: left;
+  z-index: 1;
+}
+
+#pageinfo h2 {
+  background: url("../img/box-pageinfo-top.png") no-repeat scroll 0 -1px transparent;
+  color: #303030;
+  font-size: 10px;
+  height: 36px;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 4px 0 0 8px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 28px;
+  width: 270px;
+}
+
+#pageinfo .ilink {
+  left: 230px;
+  position: absolute;
+  top: 18px;
+}
+
+/* Newsdesk */
+
+#col-content .spnd.rssitemimage {
+  margin: 2px 0.4em 0.75em 0 !important;
+  float: left !important;
+}
+
+/* Guestbook */
+
+.content .guestbook .detail div.intro {
+  margin-left: 15px;
+  width: auto;
+}
+
+.content .guestbook .detail table {
+  margin: 0 0 15px 15px;
+}
+
+.content .guestbook .detail table td,
+.content .guestbook .detail table th {
+  padding: 3px 10px 3px 0;
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+.content .guestbook .detail .editor {
+  margin: 0 0 15px 15px;
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+.content .guestbook .paging span.active {
+  font-weight: bold;
+}
+
+.content #gbookEntryList {
+  margin: 0 0 15px 0;
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+.content #gbookEntryList .maximize,
+.content #gbookEntryList .minimize {
+  display: inline-block;
+  height: 23px;
+  padding-left: 1px
+}
+
+.content #gbookEntryList .maximize {
+  margin-right: 20px;
+}
+
+.content #gbookEntryList .maximize a,
+.content #gbookEntryList .minimize a {
+  line-height: 23px;
+}
+
+.content #gbookEntryList ul {
+  margin: 15px 0 15px 2px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content #gbookEntryList ul li {
+  margin: 15px 0;  
+  list-style-type: none;
+}
+
+.content #gbookEntryList ul li h4 {
+  margin-bottom: 15px;
+}
+
+.content #gbookEntryList ul li h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.content #gbookEntryList ul li small {
+  margin-top: 15px;
+  padding: 0 15px;
+  display: block;
+}
+
+.content #gbookEntryList ul li span.date,
+.content #gbookEntryList ul li span.editor {
+  font-size: 1em; line-height: 1.25em;
+  padding: 0;
+}
+
+.content #gbookEntryList ul li h4,
+.content #gbookEntryList ul li div.gbookContent{
+  font-size: 1.33em; line-height: 1.25em;
+  padding: 0 15px;
+}
+
+.content #gbookEntryList ul li.closed div.gbookContent,
+.content #gbookEntryList ul li.closed small {
+  display: none;
+}
+
+.content #gbookEntryList ul li.closed h4 {
+  background:transparent url(/img/nav-arrow-right.png) no-repeat left center;
+  padding-left: 12px;
+}
+
+.content #gbookEntryList ul li.opened div.gbookContent,
+.content #gbookEntryList ul li.opened small {
+  display: block;
+}
+
+.content #gbookEntryList ul li.opened h4 {
+  background:transparent url(/img/nav-arrow-down.png) no-repeat left center;
+  padding-left: 12px;
+}
+
+.content .guestbook .paragraph {
+  padding-top: 0 !important;
+  width: auto;
+}
+
+.paragraph table {
+margin-bottom: 0.583em;
+caption-side: bottom;
+border-collapse: collapse;
+border: 0 none;
+}
+
+.paragraph table th {
+padding: 8px 12px;
+text-align: left;
+font-weight: normal;
+background-color: #d5d5d5 !important;
+border-style: none solid none none !important;
+border-width: 1px !important;
+border-color: #f8f8f8 !important;
+}
+
+.paragraph table td {
+padding: 6px 12px;
+border-style: solid solid none none !important;
+border-width: 1px !important;
+border-color: #f8f8f8 !important;
+background-color: #efefef !important;
+}
+
+.paragraph table tr.even td {
+border-right-color: #eaeaea !important;
+background-color: #e5e5e5 !important;
+}
+
+.paragraph table tr:nth-child(odd) td {
+border-right-color: #eaeaea !important;
+background-color: #e5e5e5 !important;
+}
+.paragraph table tr:nth-child(even) td {
+background-color: #efefef !important;
+}
+
+.paragraph table caption {
+font-size: 0.916em;
+line-height: 1.25em;
+margin: 9px 0 7px 0;
+text-align: left;
+}

@@ -1,0 +1,341 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+| Themes für www.wuppertal.de
+| fasc | 2009-01-22
+| 
+| Inhaltsverzeichnis:
+| - ==std:      Standard
+| - ==burgundy: burgunder
+| - ==violet:   violet
+| - ==green:    grün
+| - ==blue:     blau
+| - ==ice-blue: eisblau
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==std */
+  
+.box-whead h2,
+.box-whead-closed h2,
+.box-whead div.topic-a h3,
+.box-whead div.topic-a h4,
+.teaser h2,
+.teaser-short h2,
+.teaser h3 a,
+.gallery-teaser h2,
+.teaser div.paragraph a,
+.gallery-teaser h3 a,
+.content h1,
+.content h2,
+#footer a,
+.content div.results li a,
+.content div.pagination div.jumpers li.active a, 
+.content div.pagination div.next a,
+.content div.tabs li.active h5 a,
+.content div.detail-search-closed-hidden a,
+.content div.detail-search h5 a,
+.content div.detail-search h5,
+.content div.carousel ul.galleries li h3,
+.content .paragraph table th {
+  color: #600;
+}
+
+.box-whead div.topic-a h4 {
+  background: #EFE5E5;
+}
+
+body,
+#header {
+  background: url(../img/themes/burgundy/header-bg.png) repeat-x;
+}
+
+#header-left {
+  background: url(../img/themes/burgundy/header-bg-left.png) no-repeat;
+}
+
+#header-right {
+  background: url(../img/themes/burgundy/header-bg-right.png) no-repeat right top;
+}
+
+#slogan {
+  background: url(../img/themes/burgundy/loewe.png) no-repeat left center;
+}
+
+.content div.sitemap li a {
+  background: #600;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==burgundy */
+  
+.ptheme-burgundy .box-whead h2,
+.ptheme-burgundy .box-whead-closed h2,
+.ptheme-burgundy .box-whead div.topic-a h3,
+.ptheme-burgundy .box-whead div.topic-a h4,
+.ptheme-burgundy .teaser h2,
+.ptheme-burgundy .teaser-short h2,
+.ptheme-burgundy .teaser h3 a,
+.ptheme-burgundy .gallery-teaser h2,
+.ptheme-burgundy .teaser div.paragraph a,
+.ptheme-burgundy .gallery-teaser h3 a,
+.ptheme-burgundy .content h1,
+.ptheme-burgundy .content h2,
+.ptheme-burgundy #footer a,
+.ptheme-burgundy .content div.results li a,
+.ptheme-burgundy .content div.pagination div.jumpers li.active a, 
+.ptheme-burgundy .content div.pagination div.next a,
+.ptheme-burgundy .content div.tabs li.active h5 a,
+.ptheme-burgundy .content div.detail-search-closed-hidden a,
+.ptheme-burgundy .content div.detail-search h5 a,
+.ptheme-burgundy .content div.detail-search h5,
+.ptheme-burgundy .content div.carousel ul.galleries li h3,
+.ptheme-burgundy .content div.carousel ul.galleries li h3 a,
+.ptheme-burgundy .content .paragraph table th {
+  color: #600;
+}
+
+.ptheme-burgundy .box-whead div.topic-a h4 {
+  background: #EFE5E5;
+}
+
+body.ptheme-burgundy,
+.ptheme-burgundy #header {
+  background: url(../img/themes/burgundy/header-bg.png) repeat-x;
+}
+
+.ptheme-burgundy #header-left {
+  background: url(../img/themes/burgundy/header-bg-left.png) no-repeat;
+}
+
+.ptheme-burgundy #header-right {
+  background: url(../img/themes/burgundy/header-bg-right.png) no-repeat right top;
+}
+
+.ptheme-burgundy #slogan {
+  background: url(../img/themes/burgundy/loewe.png) no-repeat left center;
+}
+
+.ptheme-burgundy .content div.sitemap li a {
+  background: #600;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==violet */
+  
+.ptheme-purple .box-whead h2,
+.ptheme-purple .box-whead-closed h2,
+.ptheme-purple .box-whead div.topic-a h3,
+.ptheme-purple .box-whead div.topic-a h4,
+.ptheme-purple .teaser h2,
+.ptheme-purple .teaser-short h2,
+.ptheme-purple .teaser h3 a,
+.ptheme-purple .gallery-teaser h2,
+.ptheme-purple .teaser div.paragraph a,
+.ptheme-purple .gallery-teaser h3 a,
+.ptheme-purple .content h1,
+.ptheme-purple .content h2,
+.ptheme-purple #footer a,
+.ptheme-purple .content div.results li a,
+.ptheme-purple .content div.pagination div.jumpers li.active a, 
+.ptheme-purple .content div.pagination div.next a,
+.ptheme-purple .content div.tabs li.active h5 a,
+.ptheme-purple .content div.detail-search-closed-hidden a,
+.ptheme-purple .content div.detail-search h5 a,
+.ptheme-purple .content div.detail-search h5,
+.ptheme-purple .content div.carousel ul.galleries li h3,
+.ptheme-purple .content div.carousel ul.galleries li h3 a,
+.ptheme-purple .content .paragraph table th {
+  color: #452146;
+}
+
+.ptheme-purple .box-whead div.topic-a h4 {
+  background: #E3DEE3;
+}
+
+body.ptheme-purple,
+.ptheme-purple #header {
+  background: url(../img/themes/purple/header-bg.png) repeat-x;
+}
+
+.ptheme-purple #header-left {
+  background: url(../img/themes/purple/header-bg-left.png) no-repeat;
+}
+
+.ptheme-purple #header-right {
+  background: url(../img/themes/purple/header-bg-right.png) no-repeat right top;
+}
+
+.ptheme-purple #slogan {
+  background: url(../img/themes/purple/loewe.png) no-repeat left center;
+}
+
+.ptheme-purple .content div.sitemap li a {
+  background: #452146;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==green */
+  
+.ptheme-green .box-whead h2,
+.ptheme-green .box-whead-closed h2,
+.ptheme-green .box-whead div.topic-a h3,
+.ptheme-green .box-whead div.topic-a h4,
+.ptheme-green .teaser h2,
+.ptheme-green .teaser-short h2,
+.ptheme-green .teaser h3 a,
+.ptheme-green .gallery-teaser h2,
+.ptheme-green .teaser div.paragraph a,
+.ptheme-green .gallery-teaser h3 a,
+.ptheme-green .content h1,
+.ptheme-green .content h2,
+.ptheme-green #footer a,
+.ptheme-green .content div.results li a,
+.ptheme-green .content div.pagination div.jumpers li.active a, 
+.ptheme-green .content div.pagination div.next a,
+.ptheme-green .content div.tabs li.active h5 a,
+.ptheme-green .content div.detail-search-closed-hidden a,
+.ptheme-green .content div.detail-search h5 a,
+.ptheme-green .content div.detail-search h5,
+.ptheme-green .content div.carousel ul.galleries li h3,
+.ptheme-green .content div.carousel ul.galleries li h3 a,
+.ptheme-green .content .paragraph table th {
+  color: #446519;
+}
+
+.ptheme-green .box-whead div.topic-a h4 {
+  background: #E4EBDA;
+}
+
+body.ptheme-green,
+.ptheme-green #header {
+  background: url(../img/themes/green/header-bg.png) repeat-x;
+}
+
+.ptheme-green #header-left {
+  background: url(../img/themes/green/header-bg-left.png) no-repeat;
+}
+
+.ptheme-green #header-right {
+  background: url(../img/themes/green/header-bg-right.png) no-repeat right top;
+}
+
+.ptheme-green #slogan {
+  background: url(../img/themes/green/loewe.png) no-repeat left center;
+}
+
+.ptheme-green .content div.sitemap li a {
+  background: #446519;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==blue */
+  
+.ptheme-blue .box-whead h2,
+.ptheme-blue .box-whead-closed h2,
+.ptheme-blue .box-whead div.topic-a h3,
+.ptheme-blue .box-whead div.topic-a h4,
+.ptheme-blue .teaser h2,
+.ptheme-blue .teaser-short h2,
+.ptheme-blue .teaser h3 a,
+.ptheme-blue .gallery-teaser h2,
+.ptheme-blue .teaser div.paragraph a,
+.ptheme-blue .gallery-teaser h3 a,
+.ptheme-blue .content h1,
+.ptheme-blue .content h2,
+.ptheme-blue #footer a,
+.ptheme-blue .content div.results li a,
+.ptheme-blue .content div.pagination div.jumpers li.active a, 
+.ptheme-blue .content div.pagination div.next a,
+.ptheme-blue .content div.tabs li.active h5 a,
+.ptheme-blue .content div.detail-search-closed-hidden a,
+.ptheme-blue .content div.detail-search h5 a,
+.ptheme-blue .content div.detail-search h5,
+.ptheme-blue .content div.carousel ul.galleries li h3,
+.ptheme-blue .content div.carousel ul.galleries li h3 a,
+.ptheme-blue .content .paragraph table th {
+  color: #13377E;
+}
+
+.ptheme-blue .box-whead div.topic-a h4 {
+  background: #E1E8F6;
+}
+
+body.ptheme-blue,
+.ptheme-blue #header {
+  background: url(../img/themes/blue/header-bg.png) repeat-x;
+}
+
+.ptheme-blue #header-left {
+  background: url(../img/themes/blue/header-bg-left.png) no-repeat;
+}
+
+.ptheme-blue #header-right {
+  background: url(../img/themes/blue/header-bg-right.png) no-repeat right top;
+}
+
+.ptheme-blue #slogan {
+  background: url(../img/themes/blue/loewe.png) no-repeat left center;
+}
+
+.ptheme-blue .content div.sitemap li a {
+  background: #13377E;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  ==ice-blue */
+  
+.ptheme-ice-blue .box-whead h2,
+.ptheme-ice-blue .box-whead-closed h2,
+.ptheme-ice-blue .box-whead div.topic-a h3,
+.ptheme-ice-blue .box-whead div.topic-a h4,
+.ptheme-ice-blue .teaser h2,
+.ptheme-ice-blue .teaser-short h2,
+.ptheme-ice-blue .teaser h3 a,
+.ptheme-ice-blue .gallery-teaser h2,
+.ptheme-ice-blue .teaser div.paragraph a,
+.ptheme-ice-blue .gallery-teaser h3 a,
+.ptheme-ice-blue .content h1,
+.ptheme-ice-blue .content h2,
+.ptheme-ice-blue #footer a,
+.ptheme-ice-blue .content div.results li a,
+.ptheme-ice-blue .content div.pagination div.jumpers li.active a, 
+.ptheme-ice-blue .content div.pagination div.next a,
+.ptheme-ice-blue .content div.tabs li.active h5 a,
+.ptheme-ice-blue .content div.detail-search-closed-hidden a,
+.ptheme-ice-blue .content div.detail-search h5 a,
+.ptheme-ice-blue .content div.detail-search h5,
+.ptheme-ice-blue .content div.carousel ul.galleries li h3,
+.ptheme-ice-blue .content div.carousel ul.galleries li h3 a,  
+.ptheme-ice-blue .content .paragraph table th {
+  color: #195475;
+}
+
+.ptheme-ice-blue .box-whead div.topic-a h4 {
+  background: #D9E8ED;
+}
+
+body.ptheme-ice-blue,
+.ptheme-ice-blue #header {
+  background: url(../img/themes/ice-blue/header-bg.png) repeat-x;
+}
+
+.ptheme-ice-blue #header-left {
+  background: url(../img/themes/ice-blue/header-bg-left.png) no-repeat;
+}
+
+.ptheme-ice-blue #header-right {
+  background: url(../img/themes/ice-blue/header-bg-right.png) no-repeat right top;
+}
+
+.ptheme-ice-blue #slogan {
+  background: url(../img/themes/ice-blue/loewe.png) no-repeat left center;
+}
+
+.ptheme-ice-blue .content div.sitemap li a {
+  background: #195475;
+}

@@ -1,0 +1,587 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "WSW Zentrale",
+        "Zusatzinfo": null,
+        "Strasse": "Bromberger Straße 39-41",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Rechts neben dem Haupteingang, Parkplatz für Elektroautos vorhanden.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 16A, 11kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=1",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.188069984480168,
+          51.27722997086852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus Johannisberg",
+        "Zusatzinfo": null,
+        "Strasse": "Johannisberg 1-7",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Ausfahrtebene (Ebene 4) auf der rechten hinteren Seite, Parkplatznummer 01 und 02.",
+        "Geoeffnet": "Mo-Fr 7.00-22.00 Sa,So 10.00-20.00",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=2",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.145229980257653,
+          51.25396998501577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus Am Kasinogarten",
+        "Status": "online",
+        "Zusatzinfo": null,
+        "Strasse": "Bergstraße 54",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Einfahrt Luisenstr. 56, Einfahrtebene (Ebene 3), Parkplätze auf der rechten hinteren Seite.",
+        "Geoeffnet": "Mo-Fr 7.00-22.00 Sa,So 10.00-20.00",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=3",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.140769998744174,
+          51.25765995935713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus Islandufer",
+        "Status": "online",
+        "Zusatzinfo": null,
+        "Strasse": "Islandufer 15",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Parkhauseinfahrt, Parkplätze auf der rechten hinteren Seite.",
+        "Geoeffnet": "Mo-Fr 7.00-22.00 Sa,So 10.00-20.00",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=4",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.145729987074567,
+          51.255320042251206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus Werther Carré",
+        "Status": "online",
+        "Zusatzinfo": null,
+        "Strasse": "Kohlgarten 7",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Parkhauseinfahrt links. Wandladestation auf der rechten Seite neben den Frauenparkplätzen. Parkplatznummer 4 und 5. Nur für WSW-Kunden mit Ladeausweis",
+        "Geoeffnet": "Mo-Fr 7.00-19.00 Sa,So 10.00-17.00",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW), 1 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=5",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.206668714306473,
+          51.273904078692276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus Stadthalle und Hotel",
+        "Status": "online",
+        "Zusatzinfo": null,
+        "Strasse": "Auf dem Johannisberg 1",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Einfahrtebene, Parkplätze auf der rechten Seite, Parkplatznummer 157 und 158 .",
+        "Geoeffnet": "Mo-Fr 7.00-22.00 Sa,So 10.00-20.00",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=6",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.140960010629794,
+          51.25246000384138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Schwebebahnstation Werther Brücke",
+        "Zusatzinfo": "Park + Ride",
+        "Strasse": "Zur Werther Brücke 2",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Öffentliche Ladestation der Wuppertaler Stadtwerke. 2 Parkplätze direkt neben der Schwebebahnstation Werther Brücke.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=7",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.206964567407616,
+          51.272388698981004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "WSW Schützenstraße",
+        "Zusatzinfo": null,
+        "Strasse": "Schützenstraße 34",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Ladestation und Parkplätze auf rechter Seite neben dem Haupteingang.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "2",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW), 1 x CHAdeMO (20kW), 1 x CCS (20kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=8",
+        "AC_DC": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.187250018182029,
+          51.27913000579879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Fertighauswelt Wuppertal",
+        "Zusatzinfo": null,
+        "Strasse": "Fertighauswelt 1",
+        "Bezirk": "Oberbarmen",
+        "Erreichbar": "Ladestation und Parkplätze links neben dem Eingangstor.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=9",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.249531032493353,
+          51.31140598407345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkhaus HofaueCity",
+        "Zusatzinfo": null,
+        "Strasse": "Hofaue 71",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Ladestationen auf der rechten Seite im Erdgeschoss.",
+        "Geoeffnet": "Mo-So 6.00-23.59",
+        "Parkplaetz": "4",
+        "Ladepunkte": "4",
+        "Verbindung": "4 x Typ 2 (230V, 16A, 3,7kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=10",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.151360654436748,
+          51.25713660967484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Station Natur und Umwelt",
+        "Zusatzinfo": null,
+        "Strasse": "Jägerhofstraße 229",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Ladestation vor dem Haupteingang der Station Natur und Umwelt.",
+        "Geoeffnet": "Mo-Fr 8.00-12.00 Sa, So geschlossen",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "in Absprache mit StNU",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=11",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.151395057023654,
+          51.2322930003913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Einkaufszentrum Akzenta Steinbeck",
+        "Zusatzinfo": null,
+        "Strasse": "Tannenbergstraße 58",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Markierter Parkplatz mit Wandladestation rechts neben der Laderampe.",
+        "Geoeffnet": "Mo-Sa 7.30-21.00",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=12",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.135856663245724,
+          51.250122533492885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Einkaufszentrum Akzenta Barmen",
+        "Zusatzinfo": null,
+        "Strasse": "Unterdörnen 63",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Markierter Parkplatz mit Wandladestation links neben dem Eingang.",
+        "Geoeffnet": "Mo-Sa 7.30-21.00",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=13",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.190173740229919,
+          51.26776927445752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Einkaufszentrum Akzenta Vohwinkel",
+        "Zusatzinfo": null,
+        "Strasse": "Am Stationsgarten 2",
+        "Bezirk": "Vohwinkel",
+        "Erreichbar": "Markierter Parkplatz mit Wandladestation neben dem Eingang.",
+        "Geoeffnet": "Mo-Sa 7.30-21.00",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=14",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.068847820849065,
+          51.23204373545599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Villa Media",
+        "Zusatzinfo": null,
+        "Strasse": "Viehhofstraße 125",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "AC-Ladestationen auf rechter Seite nach Toreinfahrt. DC-Ladestationen nach Absprache.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "4",
+        "Ladepunkte": "8",
+        "Verbindung": "4 x Typ 2 (400V, 16A, 11kW), 2 x Drehstrom (400V,  16A, 11kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Registrieren mit RFID Card",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=15",
+        "AC_DC": "AC/DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.132337867562415,
+          51.245473716907874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Rathaus Barmen",
+        "Zusatzinfo": null,
+        "Strasse": "Große Flurstraße 41",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Ladestation und Parkplätze auf linker Seite vor der Durchfahrt zum Parkhaus Rathaus Barmen.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=16",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.198949911295143,
+          51.272585350905565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Ronsdorf Bandwirkerplatz",
+        "Zusatzinfo": null,
+        "Strasse": "Marktstraße 32",
+        "Bezirk": "Ronsdorf",
+        "Erreichbar": "Ladestation und Parkplätze auf der linken Seite am Ende der Parkplatzreihe.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=17",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.197999939095319,
+          51.22671495813585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Vohwinkel Schwebebahnstation",
+        "Zusatzinfo": null,
+        "Strasse": "Vohwinkeler Straße 34",
+        "Bezirk": "Vohwinkel",
+        "Erreichbar": "Ladestation und Parkplätze oberhalb der Schwebebahnstation Vohwinkel.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=18",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.06558204823237,
+          51.22981198378349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Zoologischer Garten",
+        "Zusatzinfo": "Parkplatz am Zoo",
+        "Strasse": "Boettingerweg 3",
+        "Bezirk": "Elberfeld West",
+        "Erreichbar": "Ladestation in dritter Parkplatzreihe nach Einfahrt auf den Parkplatz.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=19",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.105869939001213,
+          51.24041103832064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Elisenhöhe",
+        "Zusatzinfo": "Parkplatz Hardt",
+        "Strasse": "Otto-Schell-Weg 20",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Nach der Einfahrt auf den Parkplatz Hardt direkt links abbiegen. Die Ladestation befindet sich am Ende der ersten Reihe.",
+        "Geoeffnet": "24 Stunden / 7 Tage",
+        "Parkplaetz": "2",
+        "Ladepunkte": "4",
+        "Verbindung": "2 x Typ 2 (400V, 32A, 22kW), 2 x Schuko (230V, 16A, 3,7kW)",
+        "Zugang_zum": "Ladekarte / Ladeticket",
+        "Bezug_Lade": "http://www.ladenetz.de",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=20",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.162852032160939,
+          51.26109403692892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Bauhaus",
+        "Zusatzinfo": "auf Lichtscheid",
+        "Strasse": "Oberbergische Straße 200",
+        "Bezirk": "Barmen",
+        "Erreichbar": "Die Ladestation befindet sich in der letzten Parkplatzreihe.",
+        "Geoeffnet": "Mo-Sa 7.00-20.00",
+        "Parkplaetz": "1",
+        "Ladepunkte": "1",
+        "Verbindung": "1 x Typ 2 (400V, 32A, 22kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=21",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.187655321186958,
+          51.24500840130883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Status": "online",
+        "Standort": "Parkplatz Campus Freudenberg",
+        "Zusatzinfo": "Bergische Universität Wuppertal",
+        "Strasse": "Rainer-Gruenter-Straße 20",
+        "Bezirk": "Elberfeld",
+        "Erreichbar": "Nach Zufahrt auf das Unigelände, Parkplatz links, Ladestationen und Parkplätze unter der Überdachung mit PV-Anlage.",
+        "Geoeffnet": "Mo-Fr 7.00-21.00",
+        "Parkplaetz": "8",
+        "Ladepunkte": "12",
+        "Verbindung": "8 x Typ 2 (400V, 32A, 22kW), 4 x Schuko (230V, 32A, 22kW)",
+        "Zugang_zum": "öffentlich",
+        "Bezug_Lade": "Wird nicht benötigt",
+        "Link": "https://www.wuppertal.de/microsite/e-mobilitaet/e-auto/content/detail_ladestationen.php?id=22",
+        "AC_DC": "AC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.161240379782024,
+          51.23965055153585
+        ]
+      }
+    }
+  ]
+}

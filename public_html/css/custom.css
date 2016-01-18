@@ -9,17 +9,28 @@ and open the template in the editor.
 */
 
 
-
+/*
 .leaflet-top.leaflet-left {
     margin-top: 10px !important;
     margin-left: 10px !important;
-    /* border: 1px solid red; */
+     border: 1px solid red; 
 }
 .leaflet-control-fullscreen-button.leaflet-bar-part {
     margin-top: 10px;
-}
-.leaflet-popup-content {
+}*/
+/*.leaflet-popup-content-wrapper {
     margin: 13px 19px !important;
     padding: 1px !important;
 }
   
+.leaflet-popup-content {
+    margin: 13px 19px !important;
+    padding: 1px !important;
+}
+  */
+  
+  #col-content-child {
+  margin: 0;
+  padding: 0;
+  float: none;
+}

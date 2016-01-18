@@ -22,13 +22,13 @@
         <script type="text/javascript" src="../../../script/sg_common.js"></script>
 
 
+
+        <!--LEAFLET-->
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-
-
+        <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 
         <!--FULLSCREEN-->
-        <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js'></script>
+        <script type="text/javascript" src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js'></script>
         <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css' rel='stylesheet' />
 
 
@@ -171,15 +171,15 @@
 
 
                                 <h2 id="chapter102370100000654965-1015v1448267889162_sp_main_iterate_0_0">E-Autos</h2>
-                                <div class="paragraph">
+                                <div id="col-content-child" class="paragraph">
                                     Ein E-Auto ist ein Kraftfahrzeug zur Personenbeförderung und zum Gütertransport, das mit einem Elektromotor und einer Batterie als Antriebsenergie angetrieben wird. Das Nachladen mit elektrischer Energie erfolgt an Stromtankstellen. Wie lange ein E-Auto nach einer Ladung hält, ist vom Fahrzeugtyp abhängig.
                                 </div>
 
 
-                                <div class="image image-left">
-                                    <div class="image-wrapper">
+                                <div id="col-content-child" class="image image-left">
+                                    <div id="col-content-child" class="image-wrapper">
                                         <a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?popup=imgZoom&amp;imgID=102370100000667396" class="zoom" onclick="zoomImg('102370100000667396');return false;" title="Großbildansicht"><img src="/microsite/e-mobilitaet/e-auto/ladestationen.php.media/667396/Oberbarmen_Ladestation_Fertighauswelt_Wuppertal_kl.jpg.scaled/180x139.pm0.bgFFFFFF.jpg" width="180" height="139" alt="Ladestation Fertighauswelt Wuppertal" /></a>
-                                        <div class="enlarge">
+                                        <div id="col-content-child" class="enlarge">
                                             <a href="/microsite/e-mobilitaet/e-auto/ladestationen.php?popup=imgZoom&amp;imgID=102370100000667396" class="zoom" onclick="zoomImg('102370100000667396');return false;" title="Großbildansicht"><span>+</span></a>
                                         </div>
                                     </div>
@@ -200,33 +200,31 @@
 
 
                                 <h2 id="chapter102370100000654965-1015v1448267889162_sp_main_iterate_2_0">Ladestationen in Wuppertal</h2>
-                                <div class="paragraph">
+                                <div id="col-content-child" class="paragraph">
                                     Gerade auf längeren Strecken ist für elektrisch betriebene Fahrzeuge eine gute Infrastruktur von Ladestationen wichtig.
                                     Elektromobilisten, die in Wuppertal mit E-Autos unterwegs sind, können zurzeit an über 20 Standorten ihre Batterie mir elektrischem Strom nachladen.
                                     Über die Internetseite "E-Mobilität" bietet die Stadt Wuppertal Informationen zur Ladeinfrastruktur für E-Autos in unserer Stadt. 
                                     Die Ladestationen befinden sich auf öffentlichen Parkplätzen, in Parkhäusern, in Einkaufszentren und Baumärkten.
                                 </div>
 
-
+                                <div id="map" class="map" style="height: 340px;"></div>
                                 <br>
-                                    <div id="map" style="height: 340px;margin:initial;"></div>
-                                </br>
-                                <div class="paragraph">
-                                    <p>Unter dem Menü Ladestationen für E-Autos finden Sie Informationen über:</p>
-                                    <ul>
-                                        <li>Standort der Ladesäule</li>
-                                        <li>Steckerverbindung</li>
-                                        <li>Anzahl der Ladepunkte</li>
-                                        <li>Zugang zum Ladepunkt, z.B. öffentlich, Ladekarte, Ladeticket</li>
-                                        <li>Ladekosten</li>
-                                        <li>Anzahl der Parkplätze</li>
-                                        <li>Parkgebühren</li>
-                                        <li>Öffnungszeiten</li>
-                                        <li>Foto, Luftbild und Übersichtskarte der Ladestation</li>
-                                        <li>Erreichbarkeit der Ladestation</li>
-                                    </ul>
-                                    <p>Um die E-Mobilität in Wuppertal zu optimieren, nehmen wir Anregungen und Informationen aus der Bevölkerung sehr gerne entgegen.</p>
-                                </div>
+                                    <div id="col-content-child" class="paragraph">
+                                        <p>Unter dem Menü Ladestationen für E-Autos finden Sie Informationen über:</p>
+                                        <ul>
+                                            <li>Standort der Ladesäule</li>
+                                            <li>Steckerverbindung</li>
+                                            <li>Anzahl der Ladepunkte</li>
+                                            <li>Zugang zum Ladepunkt, z.B. öffentlich, Ladekarte, Ladeticket</li>
+                                            <li>Ladekosten</li>
+                                            <li>Anzahl der Parkplätze</li>
+                                            <li>Parkgebühren</li>
+                                            <li>Öffnungszeiten</li>
+                                            <li>Foto, Luftbild und Übersichtskarte der Ladestation</li>
+                                            <li>Erreichbarkeit der Ladestation</li>
+                                        </ul>
+                                        <p>Um die E-Mobilität in Wuppertal zu optimieren, nehmen wir Anregungen und Informationen aus der Bevölkerung sehr gerne entgegen.</p>
+                                    </div>
 
                             </div>
 
@@ -373,7 +371,14 @@
     $.getJSON("ladestationen.json", null, function (data, textStatus, jqXHR) {
         var allLadestationen = L.geoJson(data, {
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('<br>' + feature.properties.Standort + '<br>');
+                layer.bindPopup(
+                        '<h2><div>' + feature.properties.Standort + '</div>'
+                        +'<div align="right"><a href="' + feature.properties.Link + '" ><i class="fa fa-external-link"></i></a></div></h2>'
+                        + '<body>'
+                        + feature.properties.Strasse + '<br><hr>'
+                        + feature.properties.Erreichbar
+                        + '<hr></body>'
+                        );
             }
         });
         allLadestationen.addTo(map);
@@ -381,6 +386,24 @@
             padding: [0, 0]
         });
     });
+////'+feature.properties.Link+'
+//    function popitup(url) {
+////        console.log("POPITUP");
+//
+////        newwindow = window.open(url, 'name', 'height=200,width=150');
+////        if (window.focus) {
+////            newwindow.focus()
+////        }
+//
+//        
+//        $.get(url, function (my_var) {
+//            // my_var contains whatever that request returned
+//            console.log($(my_var).text())//.filter("#col-content-teaser-wrapper").text())
+//        }, 'html');
+//
+//
+//        return false;
+//    }
 
     function showBezirk(name) {
         $.getJSON("ladestationen.json", null, function (data, textStatus, jqXHR) {
